@@ -14,5 +14,4 @@ mkdir -p /tmp/my-file
 cd /tmp/my-file
 curl -O ${1}
 aws s3 sync . ${2}
-poweroff
-exit"
+poweroff"
